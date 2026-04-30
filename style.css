@@ -58,16 +58,14 @@ textarea {
 .brand {
   display: flex;
   align-items: center;
-  gap: 10px;
-  text-decoration: none;
+  gap: 14px;
 }
 
 /* ロゴ画像サイズ固定 */
 .brand-icon {
-  width: 42px !important;
-  height: 42px !important;
+  width: 52px;
+  height: 52px;
   object-fit: contain;
-  flex-shrink: 0;
 }
 
 /* テキスト部分 */
@@ -79,17 +77,20 @@ textarea {
 
 /* Safe Garden */
 .brand strong {
-  font-size: 1.05rem;
+  font-size: 1.2rem;
   font-weight: 900;
   color: #2f5d43;
 }
 
+
 /* Home Daycare */
 .brand small {
-  font-size: 0.75rem;
+  font-size: 0.78rem;
   font-weight: 700;
-  color: #ff8a1c;
+  color: #e86f00;
+  letter-spacing: 0.03em;
 }
+
 
 /* ヘッダー高さ安定 */
 .site-header {
