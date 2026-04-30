@@ -3,138 +3,365 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Testing only: remove this when ready for Google search -->
   <meta name="robots" content="noindex, nofollow" />
-  <title>Safe Garden Home Daycare | Ages 1-5</title>
+
+  <title>Safe Garden Home Daycare | Coquitlam Home Daycare Ages 1–5</title>
+  <meta
+    name="description"
+    content="Safe Garden Home Daycare in Coquitlam, BC. Warm, inclusive home daycare for children ages 1–5 led by experienced provider Chonon."
+  />
+
   <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
   <header class="site-header">
-    <a class="logo" href="#top"><span class="sun">☀️</span>Safe Garden</a>
-    <button class="nav-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
-    <nav class="site-nav">
+    <a class="brand" href="#top" aria-label="Safe Garden Home Daycare">
+      <span class="brand-sun">SG</span>
+      <span>
+        <strong>Safe Garden</strong>
+        <small>Home Daycare</small>
+      </span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="site-nav" aria-label="Main navigation">
       <a href="#about">About</a>
       <a href="#program">Program</a>
       <a href="#hours">Hours</a>
       <a href="#testimonials">Parent Voices</a>
-      <a class="nav-cta" href="#registration">Registration Inquiry</a>
+      <a href="#faq">FAQ</a>
+      <a class="nav-button" href="#registration">Check Availability</a>
     </nav>
   </header>
 
   <main id="top">
-<section class="hero" id="top">
-  <div class="hero-overlay"></div>
+    <section class="hero">
+      <div class="hero-overlay"></div>
 
-  <div class="hero-content">
-    <p class="hero-label">Coquitlam Home Daycare | Ages 1–5</p>
+      <div class="hero-content">
+        <p class="hero-label">Coquitlam Home Daycare | Ages 1–5</p>
 
-    <h1>
-      A safe, loving place<br>
-      for your child to grow.
-    </h1>
+        <h1>A safe, loving place for your child to grow.</h1>
 
-    <p class="hero-description">
-      Warm, inclusive, multi-age childcare led by Chonon — where children learn,
-      play, and feel cared for every day.
-    </p>
+        <p class="hero-description">
+          Warm, inclusive, multi-age childcare led by Chonon — where children learn,
+          play, and feel cared for every day.
+        </p>
 
-    <div class="hero-buttons">
-      <a href="#registration" class="btn btn-primary">Check Availability Today</a>
-      <a href="tel:+1XXXXXXXXXX" class="btn btn-secondary">Call Us</a>
-    </div>
+        <div class="hero-buttons">
+          <a href="#registration" class="btn btn-primary">Check Availability Today</a>
+          <a href="tel:+1XXXXXXXXXX" class="btn btn-secondary">Call Us</a>
+        </div>
 
-    <div class="hero-tags">
-      <span>Small & nurturing</span>
-      <span>English & French exposure</span>
-      <span>Breakfast & snacks</span>
-    </div>
-  </div>
-</section>
-
-
-    <section class="strip">
-      <div><strong>Breakfast & Snacks</strong><p>Nutritious breakfast and snacks are provided.</p></div>
-      <div><strong>Lunch</strong><p>Families bring lunch from home.</p></div>
-      <div><strong>Parent Review</strong><p>“My kids love Ms Chonon… she treats them like her own.”</p></div>
+        <div class="hero-tags">
+          <span>Small & nurturing</span>
+          <span>Multi-age learning</span>
+          <span>French exposure</span>
+        </div>
+      </div>
     </section>
 
-    <section class="section two-col" id="about">
-      <img class="rounded" src="assets/chonon.jpg" alt="Chonon, owner of Safe Garden Home Daycare" />
-      <div>
+    <section class="highlights" aria-label="Daycare highlights">
+      <article>
+        <strong>Open Mon–Fri</strong>
+        <span>7:30 AM – 5:00 PM</span>
+      </article>
+
+      <article>
+        <strong>Breakfast & Snacks</strong>
+        <span>Nutritious breakfast and snacks are provided daily.</span>
+      </article>
+
+      <article>
+        <strong>Lunch from Home</strong>
+        <span>Families pack lunch for their child.</span>
+      </article>
+
+      <article>
+        <strong>Inclusive Care</strong>
+        <span>A warm multicultural environment for children.</span>
+      </article>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="image-card">
+        <img src="assets/chonon.jpg" alt="Chonon, owner of Safe Garden Home Daycare" />
+      </div>
+
+      <div class="section-copy">
         <p class="eyebrow">Meet the Owner</p>
-        <h2>Caring childcare by Chonon</h2>
-        <p>Chonon is an experienced childcare provider who creates a warm, safe, and loving environment where every child feels supported.</p>
-        <p>Originally from Côte d’Ivoire, she brings a multicultural perspective and speaks French, helping children naturally experience language, kindness, and diversity.</p>
-        <p>Families appreciate her patience, gentle guidance, and the way she treats children with care — like her own.</p>
+        <h2>Caring, experienced childcare by Chonon.</h2>
+
+        <p>
+          Chonon creates a warm, safe, and loving environment where each child feels
+          supported, valued, and cared for.
+        </p>
+
+        <p>
+          Originally from Côte d’Ivoire, she brings a multicultural perspective and speaks
+          French, helping children naturally experience kindness, diversity, and language.
+        </p>
+
+        <p>
+          Families trust her patience, experience, and the way she treats children with
+          genuine care — like her own.
+        </p>
       </div>
     </section>
 
-    <section class="section" id="program">
-      <p class="eyebrow">Our Program</p>
-      <h2>Learning, play, and care for ages 1-5</h2>
+    <section class="section program" id="program">
+      <div class="section-heading">
+        <p class="eyebrow">Our Program</p>
+        <h2>Balanced care for growing little minds and bodies.</h2>
+        <p>
+          Children enjoy a nurturing daily rhythm with play, creativity, movement,
+          social learning, and gentle guidance.
+        </p>
+      </div>
+
       <div class="cards">
-        <article><span>🎨</span><h3>Creative Activities</h3><p>Crafts and hands-on activities children may not easily experience at home.</p></article>
-        <article><span>🌱</span><h3>Social Growth</h3><p>Multi-age care helps younger children learn from older children.</p></article>
-        <article><span>🏃</span><h3>Active Play</h3><p>Children move, explore, and build confidence through play.</p></article>
-        <article><span>🥣</span><h3>Breakfast & Snacks</h3><p>Nutritious breakfast and snacks are provided. Lunch is brought from home.</p></article>
+        <article class="card">
+          <span class="card-icon">🎨</span>
+          <h3>Creative Activities</h3>
+          <p>
+            Crafts and hands-on activities that help children explore, create, and express
+            themselves.
+          </p>
+        </article>
+
+        <article class="card">
+          <span class="card-icon">🌱</span>
+          <h3>Multi-Age Learning</h3>
+          <p>
+            Younger children learn from older children in a kind and supportive environment.
+          </p>
+        </article>
+
+        <article class="card">
+          <span class="card-icon">🏃</span>
+          <h3>Active Play</h3>
+          <p>
+            Daily opportunities to move, play, and build physical confidence.
+          </p>
+        </article>
+
+        <article class="card">
+          <span class="card-icon">🥣</span>
+          <h3>Breakfast & Snacks</h3>
+          <p>
+            Nutritious breakfast and snacks are provided. Lunch is brought from home.
+          </p>
+        </article>
       </div>
     </section>
 
-    <section class="section" id="hours">
-      <p class="eyebrow">Opening Hours</p>
-      <h2>Open Monday to Friday</h2>
+    <section class="section hours" id="hours">
+      <div class="section-heading">
+        <p class="eyebrow">Opening Hours</p>
+        <h2>Open Monday to Friday.</h2>
+      </div>
+
       <div class="hours-card">
-        <div><span>Mon</span><strong>7:30 AM - 5:00 PM</strong></div>
-        <div><span>Tue</span><strong>7:30 AM - 5:00 PM</strong></div>
-        <div><span>Wed</span><strong>7:30 AM - 5:00 PM</strong></div>
-        <div><span>Thu</span><strong>7:30 AM - 5:00 PM</strong></div>
-        <div class="open"><span>Fri</span><strong>7:30 AM - 5:00 PM</strong><em>Open now</em></div>
-        <div class="closed"><span>Sat</span><strong>Closed</strong></div>
-        <div class="closed"><span>Sun</span><strong>Closed</strong></div>
+        <div class="hour-row">
+          <span>Mon</span>
+          <strong>7:30 AM – 5:00 PM</strong>
+        </div>
+        <div class="hour-row">
+          <span>Tue</span>
+          <strong>7:30 AM – 5:00 PM</strong>
+        </div>
+        <div class="hour-row">
+          <span>Wed</span>
+          <strong>7:30 AM – 5:00 PM</strong>
+        </div>
+        <div class="hour-row">
+          <span>Thu</span>
+          <strong>7:30 AM – 5:00 PM</strong>
+        </div>
+        <div class="hour-row">
+          <span>Fri</span>
+          <strong>7:30 AM – 5:00 PM</strong>
+        </div>
+        <div class="hour-row closed">
+          <span>Sat</span>
+          <strong>Closed</strong>
+        </div>
+        <div class="hour-row closed">
+          <span>Sun</span>
+          <strong>Closed</strong>
+        </div>
       </div>
     </section>
 
     <section class="section gallery">
-      <p class="eyebrow">Photo Gallery</p>
-      <h2>Photos can be added later</h2>
+      <div class="section-heading">
+        <p class="eyebrow">Gallery</p>
+        <h2>A warm space for play, learning, and friendship.</h2>
+        <p>
+          Replace these photos later by adding real images to the <code>assets</code> folder.
+        </p>
+      </div>
+
       <div class="gallery-grid">
-        <img src="assets/activity1.jpg" alt="Daycare activity 1" />
-        <img src="assets/activity2.jpg" alt="Daycare activity 2" />
-        <img src="assets/activity3.jpg" alt="Daycare activity 3" />
-        <img src="assets/activity4.jpg" alt="Daycare activity 4" />
+        <img src="assets/activity1.jpg" alt="Children doing daycare activities" />
+        <img src="assets/activity2.jpg" alt="Daycare play space" />
+        <img src="assets/activity3.jpg" alt="Creative activity at daycare" />
+        <img src="assets/activity4.jpg" alt="Outdoor or indoor daycare activity" />
       </div>
     </section>
 
-    <section class="section" id="testimonials">
-      <p class="eyebrow">Parent Voices</p>
-      <h2>Families feel grateful to have found Safe Garden</h2>
-      <div class="testimonials">
-        <article><div class="stars">★★★★★</div><p>“My kids love Ms Chonon. She provides them healthy meals and updates parents on the app. She is patient and treats my kids like hers.”</p></article>
-        <article><div class="stars">★★★★★</div><p>“Our family loves this daycare. You couldn't ask for a more caring and loving place to entrust with the safekeeping of your child.”</p></article>
-        <article><div class="stars">★★★★★</div><p>“My child is learning so much at daycare. The owner and teachers are always there to support us, and the children are truly kind-hearted.”</p></article>
+    <section class="section testimonials" id="testimonials">
+      <div class="section-heading">
+        <p class="eyebrow">Parent Voices</p>
+        <h2>Families feel grateful to have found Safe Garden.</h2>
+      </div>
+
+      <div class="testimonial-grid">
+        <article class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p>
+            “My kids love Ms Chonon. She provides them healthy meals and updates parents
+            on the app. She is patient and treats my kids like hers.”
+          </p>
+        </article>
+
+        <article class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p>
+            “Our family loves this daycare. You couldn't ask for a more caring and loving
+            place to entrust with the safekeeping of your child.”
+          </p>
+        </article>
+
+        <article class="testimonial">
+          <div class="stars">★★★★★</div>
+          <p>
+            “My child is learning so much at daycare. The owner and teachers are always
+            there to support us, and the children are truly kind-hearted.”
+          </p>
+        </article>
       </div>
     </section>
 
-    <section class="section two-col registration" id="registration">
-      <div>
+    <section class="section faq" id="faq">
+      <div class="section-heading">
+        <p class="eyebrow">FAQ</p>
+        <h2>Common questions from parents.</h2>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <h3>What ages do you accept?</h3>
+          <p>Safe Garden Home Daycare welcomes children ages 1–5.</p>
+        </article>
+
+        <article class="card">
+          <h3>Is lunch provided?</h3>
+          <p>
+            Lunch is brought from home. Nutritious breakfast and snacks are provided.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>What are the hours?</h3>
+          <p>We are open Monday to Friday, 7:30 AM – 5:00 PM.</p>
+        </article>
+
+        <article class="card">
+          <h3>How do I check availability?</h3>
+          <p>
+            Please use the inquiry form below. Chonon will reply as soon as possible.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section registration" id="registration">
+      <div class="registration-copy">
         <p class="eyebrow">Registration Inquiry</p>
-        <h2>Check availability or book a tour</h2>
-        <p>Please send a quick inquiry. Chonon will reply as soon as possible.</p>
-        <p class="note">Later, this form can be replaced with a Google Form embed for easy owner management.</p>
+        <h2>Check availability or book a tour.</h2>
+        <p>
+          Please send your information below. This form currently opens an email.
+          Later, it can be replaced with a Google Form for easy owner management.
+        </p>
       </div>
+
       <form class="inquiry-form" id="inquiryForm">
-        <label>Parent Name<input type="text" name="name" placeholder="Your name" required /></label>
-        <label>Email<input type="email" name="email" placeholder="you@example.com" required /></label>
-        <label>Phone Number<input type="tel" name="phone" placeholder="Your phone number" /></label>
-        <label>Child's Age<select name="age" required><option value="">Select age</option><option>1 year old</option><option>2 years old</option><option>3 years old</option><option>4 years old</option><option>5 years old</option></select></label>
-        <label>Preferred Start Date<input type="text" name="start" placeholder="e.g. September 2026" /></label>
-        <label class="full">Message<textarea name="message" rows="5" placeholder="Tell us what you are looking for" required></textarea></label>
-        <button class="btn primary full" type="submit">Send Inquiry</button>
-        <p class="form-status" id="formStatus"></p>
+        <label>
+          Parent Name
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+
+        <label>
+          Email
+          <input type="email" name="email" placeholder="you@example.com" required />
+        </label>
+
+        <label>
+          Phone Number
+          <input type="tel" name="phone" placeholder="Your phone number" />
+        </label>
+
+        <label>
+          Child’s Age
+          <select name="childAge" required>
+            <option value="">Select age</option>
+            <option>1 year old</option>
+            <option>2 years old</option>
+            <option>3 years old</option>
+            <option>4 years old</option>
+            <option>5 years old</option>
+          </select>
+        </label>
+
+        <label>
+          Preferred Start Date
+          <input type="text" name="startDate" placeholder="e.g. September 2026" />
+        </label>
+
+        <label class="full">
+          Message
+          <textarea
+            name="message"
+            rows="5"
+            placeholder="Tell us what you are looking for"
+            required
+          ></textarea>
+        </label>
+
+        <button class="btn btn-primary full" type="submit">Send Inquiry</button>
+        <p class="form-status" id="formStatus" role="status"></p>
       </form>
+
+      <!--
+      Google Form option:
+      When your Google Form is ready, replace the form above with this iframe.
+
+      <iframe
+        src="GOOGLE_FORM_EMBED_URL_HERE"
+        width="100%"
+        height="850"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0">
+        Loading…
+      </iframe>
+      -->
     </section>
   </main>
 
-  <footer>© <span id="year"></span> Safe Garden Home Daycare. All rights reserved.</footer>
+  <footer class="footer">
+    <p>© <span id="year"></span> Safe Garden Home Daycare. All rights reserved.</p>
+  </footer>
+
   <script src="script.js"></script>
 </body>
 </html>
